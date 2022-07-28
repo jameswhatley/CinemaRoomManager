@@ -1,0 +1,55 @@
+# Project exclude paths
+/.gradle/
+/Cinema Room Manager/task/build/
+/Cinema Room Manager/task/out/
+/Cinema Room Manager/task/out/production/classes/
+/Topics/Branching statements/Bus tour/out/
+/Topics/Branching statements/Bus tour/out/production/classes/
+/Topics/Comments/Theory/out/
+/Topics/Comments/Theory/out/production/classes/
+/Topics/Conditional statement/Check a number is positive/out/
+/Topics/Conditional statement/Check a number is positive/out/production/classes/
+/Topics/Conditional statement/Healthy sleep/out/
+/Topics/Conditional statement/Healthy sleep/out/production/classes/
+/Topics/Conditional statement/Symmetrical number/out/
+/Topics/Conditional statement/Symmetrical number/out/production/classes/
+/Topics/Conditional statement/The army of units/out/
+/Topics/Conditional statement/The army of units/out/production/classes/
+/Topics/Conditional statement/Triangle/out/
+/Topics/Conditional statement/Triangle/out/production/classes/
+/Topics/Increment and decrement/Decrement all/out/
+/Topics/Increment and decrement/Decrement all/out/production/classes/
+/Topics/Increment and decrement/Theory/out/
+/Topics/Increment and decrement/Theory/out/production/classes/
+/Topics/Iterating over arrays/Count how many times a number occurs/out/
+/Topics/Iterating over arrays/Count how many times a number occurs/out/production/classes/
+/Topics/Iterating over arrays/Sum array elements greater than a value/out/
+/Topics/Iterating over arrays/Sum array elements greater than a value/out/production/classes/
+/Topics/Iterating over arrays/The minimum value of an array/out/
+/Topics/Iterating over arrays/The minimum value of an array/out/production/classes/
+/Topics/Printing data/From 0 to 4/out/
+/Topics/Printing data/From 0 to 4/out/production/classes/
+/Topics/Relational operators/Boys in a sport class/out/
+/Topics/Relational operators/Boys in a sport class/out/production/classes/
+/Topics/Relational operators/Check the value/out/
+/Topics/Relational operators/Check the value/out/production/classes/
+/Topics/Relational operators/Is between/out/
+/Topics/Relational operators/Is between/out/production/classes/
+/Topics/Scanning the input/Guest list of a hotel/out/
+/Topics/Scanning the input/Guest list of a hotel/out/production/classes/
+/Topics/Scanning the input/Hiring a chef/out/
+/Topics/Scanning the input/Hiring a chef/out/production/classes/
+/Topics/Scanning the input/Print strings in the reverse order/out/
+/Topics/Scanning the input/Print strings in the reverse order/out/production/classes/
+/Topics/Scanning the input/Printing each word in a new line/out/
+/Topics/Scanning the input/Printing each word in a new line/out/production/classes/
+/Topics/The for-loop/Fizz Buzz/out/
+/Topics/The for-loop/Fizz Buzz/out/production/classes/
+/Topics/The for-loop/Grades/out/
+/Topics/The for-loop/Grades/out/production/classes/
+/Topics/The for-loop/Maximum element divisible by four/out/
+/Topics/The for-loop/Maximum element divisible by four/out/production/classes/
+/Topics/The while and do-while loops/The length of the sequence/out/
+/Topics/The while and do-while loops/The length of the sequence/out/production/classes/
+/Topics/The while and do-while loops/The sum of elements/out/
+/Topics/The while and do-while loops/The sum of elements/out/production/classes/

@@ -24,6 +24,7 @@
       <module name="Cinema_Room_Manager.Topics-Comments-Statements.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Comments-The_forgotten_comments.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Comments-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Comments-Three_numbers.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Comments-Uncomment_a_line.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Comments-What_comments_are_not_used_in_the_program.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Conditional_statement-An_output_of_the_code.main" target="11" />
@@ -46,11 +47,18 @@
       <module name="Cinema_Room_Manager.Topics-Introduction_to_Java-Theory.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Introduction_to_Java-WORA.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Iterating_over_arrays-Count_how_many_times_a_number_occurs.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Iterating_over_arrays-Cyclically_shifting_elements.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Iterating_over_arrays-Find_the_sum.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Iterating_over_arrays-Select_loops.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Iterating_over_arrays-Select_one_loop.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Iterating_over_arrays-Sum_array_elements_greater_than_a_value.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Iterating_over_arrays-The_minimum_value_of_an_array.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Iterating_over_arrays-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Cinema.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Fill_the_matrix_by_numbers.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Rotate_a_rectangle_array.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Symmetric_matrix.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Theory.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Primitive_and_reference_types-Creating_a_primitive.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Primitive_and_reference_types-Creating_a_reference_type.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Primitive_and_reference_types-The_assignment.main" target="11" />

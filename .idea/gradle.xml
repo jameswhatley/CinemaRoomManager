@@ -34,6 +34,7 @@
             <option value="$PROJECT_DIR$/Topics/Comments/Statements" />
             <option value="$PROJECT_DIR$/Topics/Comments/The forgotten comments" />
             <option value="$PROJECT_DIR$/Topics/Comments/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Comments/Three numbers" />
             <option value="$PROJECT_DIR$/Topics/Comments/Uncomment a line" />
             <option value="$PROJECT_DIR$/Topics/Comments/What comments are not used in the program" />
             <option value="$PROJECT_DIR$/Topics/Conditional statement/An output of the code" />
@@ -56,11 +57,18 @@
             <option value="$PROJECT_DIR$/Topics/Introduction to Java/Theory" />
             <option value="$PROJECT_DIR$/Topics/Introduction to Java/WORA" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Count how many times a number occurs" />
+            <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Cyclically shifting elements" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Find the sum" />
+            <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Select loops" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Select one loop" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Sum array elements greater than a value" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/The minimum value of an array" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Multidimensional array/Cinema" />
+            <option value="$PROJECT_DIR$/Topics/Multidimensional array/Fill the matrix by numbers" />
+            <option value="$PROJECT_DIR$/Topics/Multidimensional array/Rotate a rectangle array" />
+            <option value="$PROJECT_DIR$/Topics/Multidimensional array/Symmetric matrix" />
+            <option value="$PROJECT_DIR$/Topics/Multidimensional array/Theory" />
             <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Creating a primitive" />
             <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Creating a reference type" />
             <option value="$PROJECT_DIR$/Topics/Primitive and reference types/The assignment" />

@@ -2,8 +2,8 @@ type: choice
 is_multiple_choice: false
 options:
 - text: Java has a mechanism that cleans memory automatically.
-- text: Java involves the use of a manual memory cleaning.
 - text: Java does not have memory cleaning mechanisms at all.
+- text: Java involves the use of a manual memory cleaning.
 files:
 - name: src/Task.java
   visible: true

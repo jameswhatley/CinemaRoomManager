@@ -1,14 +1,14 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: '&lt;&lt;'
-- text: '&lt;='
-- text: '!='
 - text: '&gt;&gt;&gt;'
-- text: =
 - text: '&gt;'
-- text: ==
+- text: '&lt;='
+- text: =
 - text: '&lt;&gt;'
+- text: ==
+- text: '&lt;&lt;'
+- text: '!='
 files:
 - name: src/Task.java
   visible: true

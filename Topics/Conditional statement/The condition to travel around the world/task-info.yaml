@@ -1,11 +1,11 @@
 type: choice
 is_multiple_choice: false
 options:
+- text: if (hasEnoughMoney == true)
+- text: if (hasEnoughMoney == true &amp;&amp; hasEnoughMoney != false)
 - text: if (hasEnoughMoney)
 - text: if (!!hasEnoughMoney)
-- text: if (hasEnoughMoney == true &amp;&amp; hasEnoughMoney != false)
 - text: if (true)
-- text: if (hasEnoughMoney == true)
 files:
 - name: src/Task.java
   visible: true

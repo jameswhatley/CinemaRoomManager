@@ -1,8 +1,8 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: int numbers = new numbers[30];
 - text: int numbers[] = new int[10];
+- text: int numbers = new numbers[30];
 - text: int[] numbers = new int[20];
 - text: int numbers = new int[10];
 files:

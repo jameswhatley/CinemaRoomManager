@@ -1,9 +1,9 @@
 type: choice
 is_multiple_choice: true
 options:
+- text: 'int[] numbers = new int[3] { 1, 2, 3 }; '
 - text: double[] doubles = new { 1.0d, 1.1d, 1.2d };
 - text: char[] letters = new char[] { 'A', 'B', 'C' };
-- text: 'int[] numbers = new int[3] { 1, 2, 3 }; '
 - text: String[] words = { "first", "second", "third" };
 files:
 - name: src/Task.java

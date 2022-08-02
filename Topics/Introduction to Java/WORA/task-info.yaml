@@ -1,9 +1,9 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: Westside One Residents' Association
-- text: When Online RPGs Attack
 - text: 'Write Once Run Anywhere '
+- text: When Online RPGs Attack
+- text: Westside One Residents' Association
 - text: Weave On Right Advantage
 files:
 - name: src/Task.java

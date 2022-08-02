@@ -1,12 +1,12 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: John
-- text: Emily
-- text: Mary
 - text: Alexander
-- text: Andrew
+- text: Emily
 - text: Olivia
+- text: John
+- text: Mary
+- text: Andrew
 files:
 - name: src/Task.java
   visible: true

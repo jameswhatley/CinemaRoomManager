@@ -19,6 +19,10 @@
             <option value="$PROJECT_DIR$/Cinema Room Manager/task/build/reports/tests" />
             <option value="$PROJECT_DIR$/Cinema Room Manager/task/build/test-results" />
             <option value="$PROJECT_DIR$/Cinema Room Manager/task/build/tmp" />
+            <option value="$PROJECT_DIR$/Topics/Array exceptions/A line that throws an exception" />
+            <option value="$PROJECT_DIR$/Topics/Array exceptions/Calculate Square" />
+            <option value="$PROJECT_DIR$/Topics/Array exceptions/Explore the standard class library" />
+            <option value="$PROJECT_DIR$/Topics/Array exceptions/Theory" />
             <option value="$PROJECT_DIR$/Topics/Array/Creating arrays" />
             <option value="$PROJECT_DIR$/Topics/Array/Declarations" />
             <option value="$PROJECT_DIR$/Topics/Array/Equal arrays" />
@@ -28,6 +32,12 @@
             <option value="$PROJECT_DIR$/Topics/Array/Initializing an array of longs" />
             <option value="$PROJECT_DIR$/Topics/Array/Theory" />
             <option value="$PROJECT_DIR$/Topics/Array/Ways to create an array of ints" />
+            <option value="$PROJECT_DIR$/Topics/Arrays as parameters/How to invoke the method" />
+            <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Inverse boolean flags" />
+            <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Statements" />
+            <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Varargs" />
+            <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Varargs method invocation" />
             <option value="$PROJECT_DIR$/Topics/Branching statements/A suitable output" />
             <option value="$PROJECT_DIR$/Topics/Branching statements/Bus tour" />
             <option value="$PROJECT_DIR$/Topics/Branching statements/Theory" />
@@ -57,8 +67,13 @@
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Sum of numbers in the range" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Theory" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Vowel or not" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Fix compile-time errors" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Fix the program" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/What's wrong" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Calculator with four methods" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Create a full name" />
+            <option value="$PROJECT_DIR$/Topics/Functional decomposition/Decompose a math function" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Theory" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Why decompose a program" />
             <option value="$PROJECT_DIR$/Topics/Increment and decrement/Decrement all" />
@@ -108,6 +123,10 @@
             <option value="$PROJECT_DIR$/Topics/Scanning the input/Print strings in the reverse order" />
             <option value="$PROJECT_DIR$/Topics/Scanning the input/Printing each word in a new line" />
             <option value="$PROJECT_DIR$/Topics/Scanning the input/Theory" />
+            <option value="$PROJECT_DIR$/Topics/String/Check prefix ignoring the case" />
+            <option value="$PROJECT_DIR$/Topics/String/Comparing strings ignoring whitespaces" />
+            <option value="$PROJECT_DIR$/Topics/String/Operations with strings" />
+            <option value="$PROJECT_DIR$/Topics/String/Theory" />
             <option value="$PROJECT_DIR$/Topics/Switch statement/Direction" />
             <option value="$PROJECT_DIR$/Topics/Switch statement/Theory" />
             <option value="$PROJECT_DIR$/Topics/The for-loop/Fizz Buzz" />
@@ -128,6 +147,8 @@
             <option value="$PROJECT_DIR$/Topics/The while and do-while loops/The smallest value" />
             <option value="$PROJECT_DIR$/Topics/The while and do-while loops/The sum of elements" />
             <option value="$PROJECT_DIR$/Topics/The while and do-while loops/Theory" />
+            <option value="$PROJECT_DIR$/Topics/What is an exception/Avoid division by zero" />
+            <option value="$PROJECT_DIR$/Topics/What is an exception/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

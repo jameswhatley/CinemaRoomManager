@@ -18,6 +18,16 @@
       <module name="Cinema_Room_Manager.Topics-Array-Initializing_an_array_of_longs.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Array-Theory.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Array-Ways_to_create_an_array_of_ints.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Array_exceptions-A_line_that_throws_an_exception.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Array_exceptions-Calculate_Square.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Array_exceptions-Explore_the_standard_class_library.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Array_exceptions-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Arrays_as_parameters-How_to_invoke_the_method.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Arrays_as_parameters-Inverse_boolean_flags.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Arrays_as_parameters-Statements.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Arrays_as_parameters-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Arrays_as_parameters-Varargs.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Arrays_as_parameters-Varargs_method_invocation.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Branching_statements-A_suitable_output.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Branching_statements-Bus_tour.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Branching_statements-Theory.main" target="11" />
@@ -47,8 +57,13 @@
       <module name="Cinema_Room_Manager.Topics-Declaring_a_method-Sum_of_numbers_in_the_range.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Declaring_a_method-Theory.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Declaring_a_method-Vowel_or_not.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Errors_in_programs-Fix_compile-time_errors.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Errors_in_programs-Fix_the_program.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Errors_in_programs-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Errors_in_programs-What's_wrong.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Functional_decomposition-Calculator_with_four_methods.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Functional_decomposition-Create_a_full_name.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Functional_decomposition-Decompose_a_math_function.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Functional_decomposition-Theory.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Functional_decomposition-Why_decompose_a_program.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Increment_and_decrement-Decrement_all.main" target="11" />
@@ -98,6 +113,10 @@
       <module name="Cinema_Room_Manager.Topics-Scanning_the_input-Print_strings_in_the_reverse_order.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Scanning_the_input-Printing_each_word_in_a_new_line.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Scanning_the_input-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-String-Check_prefix_ignoring_the_case.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-String-Comparing_strings_ignoring_whitespaces.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-String-Operations_with_strings.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-String-Theory.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Switch_statement-Direction.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Switch_statement-Theory.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-The_for-loop-Fizz_Buzz.main" target="11" />
@@ -118,6 +137,8 @@
       <module name="Cinema_Room_Manager.Topics-The_while_and_do-while_loops-The_smallest_value.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-The_while_and_do-while_loops-The_sum_of_elements.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-The_while_and_do-while_loops-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-What_is_an_exception-Avoid_division_by_zero.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-What_is_an_exception-Theory.main" target="11" />
       <module name="Cinema_Room_Manager.util.main" target="11" />
     </bytecodeTargetLevel>
   </component>

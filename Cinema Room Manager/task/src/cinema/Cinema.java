@@ -1,86 +1,145 @@
 package cinema;
 
+import java.text.DecimalFormat;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Cinema {
+    static final int higherCost = 10;
+    static final int lowerCost = 8;
+    static Scanner scanner = new Scanner(System.in);
+    static DecimalFormat df = new DecimalFormat("0.00");
+    static int seatNum;
+    static int rowNum;
+    static int rows;
+    static int seats;
+    static int numberOfSeats;
+    static int soldTickets = 0;
+    static int currentIncome = 0;
+
+    static double percentage = 0;
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int higherCost = 10;
-        int lowerCost = 8;
 
-        //Create initial Seat grid
+        // Create initial Seat grid
         System.out.print("Enter the number of rows: ");
-        int rows = scanner.nextInt();
+        rows = scanner.nextInt();
 
         System.out.print("Enter the number of seats in each row: ");
-        int seats = scanner.nextInt();
+        seats = scanner.nextInt();
+
+        numberOfSeats = rows * seats;
+
         char[][] seatGrid = new char[rows][seats];
+        setCinemaGrid(seatGrid);
 
-        //Print Cinema Grid
-        System.out.println("Cinema:");
-        printCinema(rows, seats);
+        boolean exit = false;
+        while (!exit) {
+            System.out.println("\n1. Show the seats\n2. Buy a ticket\n3. Statistics\n0. Exit");
+            int option = scanner.nextInt();
+            switch (option) {
+                case 1:
+                    printCinema(rows, seatGrid);
+                    break;
+                case 2:
+                    buyTicket(rows, seatGrid);
+                    break;
+                case 3:
+                    showStatistics();
+                    break;
+                case 0:
+                    exit = true;
+                    break;
+            }
+        }
+    }
 
-        //Select seat
-        System.out.print("Enter a row number: ");
-        int rowNum = scanner.nextInt();
-        System.out.print("Enter a seat number in that row: ");
-        int seatNum = scanner.nextInt();
+    private static void buyTicket(int rows, char[][] seatGrid) {
+        try {
+            // Select seat
+            System.out.print("\nEnter a row number: ");
+            rowNum = scanner.nextInt();
+            System.out.print("Enter a seat number in that row: ");
+            seatNum = scanner.nextInt();
 
-        //Calculate Ticket Price from selected seat
-        int numberOfSeats = rows * seats;
-        if (numberOfSeats <= 60) {
-            System.out.println("\nTicket price: $" + higherCost);
-        } else if (rowNum <= rows / 2) {
-            System.out.println("\nTicket price: $" + higherCost);
+            if (seatGrid[rowNum - 1][seatNum - 1] == 'B') {
+                System.out.println("That ticket has already been purchased!\n");
+                buyTicket(rows, seatGrid);
+            } else {
+                // Calculate Ticket Price from selected seat
+                if (numberOfSeats <= 60) {
+                    System.out.println("\nTicket price: $" + higherCost);
+                    currentIncome += higherCost;
+                } else if (rowNum <= rows / 2) {
+                    System.out.println("\nTicket price: $" + higherCost);
+                    currentIncome += higherCost;
+                } else {
+                    System.out.println("\nTicket price: $" + lowerCost);
+                    currentIncome += lowerCost;
+                }
+                soldTickets++;
+
+                applyBookedSeat(rowNum, seatNum, seatGrid);
+            }
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Wrong input!");
+            buyTicket(rows, seatGrid);
+        }
+    }
+
+    private static void applyBookedSeat(int rowNum, int seatNum, char[][] seatGrid) {
+        for (int i = 0; i < seatGrid.length; i++) {
+            for (int j = 0; j < seatGrid[i].length; j++) {
+                seatGrid[rowNum - 1][seatNum - 1] = 'B';
+            }
+        }
+    }
+
+    public static void setCinemaGrid(char[][] seatGrid) {
+        for (char[] chars : seatGrid) {
+            Arrays.fill(chars, 'S');
+        }
+    }
+
+    private static void getProfit(int rows, int seats, int numberOfSeats) {
+        int totalProfit;
+        if(numberOfSeats < 60) {
+            totalProfit = numberOfSeats * higherCost;
         } else {
-            System.out.println("\nTicket price: $" + lowerCost);
+            totalProfit = (rows/2) * higherCost * seats + (rows-rows/2) * lowerCost * seats;
         }
+        System.out.println("Total income: $" + totalProfit);
+    }
 
-        //Print Seat Grid with booked seat
-        System.out.println("\nCinema:");
-        System.out.print("  ");
-        for (int i = 0; i < seats; i++){
-            System.out.printf("%d ", i + 1);
+    private static void printCinema(int rows, char[][] seatGrid) {
+        System.out.println("Cinema: ");
+        System.out.print("\0 ");
+
+        for (int i = 1; i <= seats; i++) {
+            System.out.print(i + " ");
         }
-        System.out.println();
+        System.out.print("\n");
 
-        for ( int i = 0; i < seatGrid.length; i++){
-            System.out.printf("%d ", i + 1);
-            for ( int j = 0; j < seatGrid[i].length; j++){
-                seatGrid[i][j] = 'S';
-                seatGrid[rowNum-1][seatNum-1] = 'B';
+        for (int i = 0; i < rows; i++) {
+            System.out.print((i + 1) + " ");
+            for (int j = 0; j < seats; j++) {
                 System.out.print(seatGrid[i][j] + " ");
             }
-            System.out.println();
+            System.out.print("\n");
         }
     }
 
-    public static void getProfit(int rows, int seats, int numberOfSeats, int higherCost, int lowerCost) {
-        int totalProfit;
-        if (numberOfSeats > 60) {
-            int incomeOfForwardSeats = (rows / 2) * seats * higherCost;
-            int incomeOfBackSeats = (rows - (rows / 2)) * seats * lowerCost;
-            totalProfit = incomeOfForwardSeats + incomeOfBackSeats;
-        } else {
-            totalProfit = numberOfSeats * higherCost;
+    private static void showStatistics() {
+        System.out.println("\nNumber of purchased tickets: " + soldTickets);
+        try {
+            percentage = (double) soldTickets / (double) numberOfSeats * 100;
+            System.out.println("Percentage: " + df.format(percentage) + "%");
+        } catch (ArithmeticException e) {
+            System.out.println("Percentage: " + df.format(percentage) + "%");
         }
-        System.out.print("Total Income: $" + totalProfit);
-    }
-
-    public static void printCinema(int rows, int columns) {
-        System.out.print("  ");             // print the column labels
-        for (int j = 0; j < columns; j++) {
-            System.out.print(" " + (j + 1));
-        }
-        System.out.println(" ");
-        for (int i = 0; i < rows; i++) {
-            System.out.print(" " + (i + 1));   // print the row number
-            for (int j = 0; j < columns; j++) {
-                System.out.print(" " + "S"); // print the seat number
-            }
-            System.out.println();
-        }
+        System.out.println("Current income: $" + currentIncome);
+        getProfit(rows, seats, numberOfSeats);
+        System.out.println();
     }
 
 }
